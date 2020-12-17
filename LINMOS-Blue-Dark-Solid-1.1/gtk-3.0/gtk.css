@@ -1,0 +1,11 @@
+/*				         Made by EtienneGNOME  2020		*/
+/*((((((((((  Conversion rate: 0.06875 x px = rem ))))))))))*/
+
+/*---------------------loading-all-colors------------------------------------*/
+
+@import url("colors-scheme-dark.css");
+
+/*---------------------loading-theme-css-------------------------------------*/
+
+@import url("main-dark.css");
+

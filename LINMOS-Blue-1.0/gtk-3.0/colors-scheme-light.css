@@ -1,0 +1,43 @@
+/******************************************************************************/
+/*(((((((( defining accent color )))))*/
+
+@define-color color_accent #3584E4; /*#DC5E38;*/ /*#22917b;*/ /*#DC5E38;*/ /*#C058B3;*/
+
+/*******************************************************************************/
+/*(((((((((( defining main-color of the headerbar )))))))))*/
+
+@define-color headerbar_color #CDCDCD; /*mix(#CDCDCD, @color_accent, 0.1);*/
+@define-color headerbar_text_color #404040;
+@define-color headerbar_selected_text_color #FFFFFF;
+@define-color headerbar_text_shadow_color transparent;
+@define-color headerbar_selected_accent_color @color_accent; /*mix(shade(@headerbar_color, 0.55), @color_accent, 0.5);*/ /*shade(@headerbar_color, 0.55);*/ /*#707070;*/
+
+/******************************************************************************/
+/*(((((((( defining colors for other widgets )))))*/
+
+@define-color text_color #404040;
+@define-color selected_text_color #FFFFFF;
+@define-color disabled_text_color #929595;
+
+/*******************************************************************************/
+/*(((((((((( defining colors of the sidebar )))))))))*/
+
+@define-color sidebar_bg_color #D7DCE6; /*mix(#D7DCE6, @color_accent, 0.15);*/
+@define-color sidebar_bg_color_hover #777777; /*@color_accent;*/
+
+@define-color sidebar_text_color #404040;
+@define-color sidebar_selected_text_color #FFFFFF;
+
+/*******************************************************************************/
+/*(((((((((( defining bg-color of menus/popover )))))))))*/
+
+@define-color menu_popover_bg_color #D7DCE6;
+
+/*******************************************************************************/
+/*(((((((( defining the colors of the windowbuttons )))))*/
+
+@define-color minimize_color #E87E3B;
+@define-color maximize_color @color_accent;
+@define-color close_color #EE4646;
+@define-color restore_color @maximize_color;
+@define-color backdrop_color #AEAEAE;
